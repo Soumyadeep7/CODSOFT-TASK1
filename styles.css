@@ -1,0 +1,127 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Your custom styles */
+  /* For the mixed color */
+.mixed-color {
+    background: linear-gradient(to bottom right, red 50%, white 50%);
+    border: 2px solid red; /* Adjust border styles as needed */
+    /* Add other styles as needed */
+  }
+  
+  
+  /* Header styles */
+  header {
+    /* Your header styles here */
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add further styles as needed */
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust height as required */
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  /* Hero section styles */
+ /* ... previous CSS ... */
+
+.hero {
+    position: relative;
+  }
+  
+  
+  
+  
+    
+  
+  .hero-content {
+    
+    text-align: center;
+    color: white; /* Text color on the hero section */
+  }
+  
+  .join-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .join-form input,
+  .join-form button {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .get-started-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Content section styles */
+  .content {
+    /* Your content section styles here */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Add further styles as needed */
+  }
+  
+  .box {
+    width: 45%; /* Adjust width as needed */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+    /* Add further styles as needed */
+  
+  
+  .white-box {
+    background-color: white;
+    /* Add further styles as needed */
+  }
+  
+  /* Footer styles */
+  footer {
+    /* Your footer styles here */
+  }
+  /* ... previous CSS ... */
+
+/* Adjusted CSS for the form */
+.join-form {
+    text-align: center;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .input-group input,
+  .get-started-btn {
+    margin: 5px;
+  }
+  
+  
